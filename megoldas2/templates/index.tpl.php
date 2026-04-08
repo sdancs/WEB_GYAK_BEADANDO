@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="./styles/stilus.css" type="text/css">
 	<?php if(file_exists('./styles/'.$keres['fajl'].'.css')) { ?><link rel="stylesheet" href="./styles/<?= $keres['fajl']?>.css" type="text/css"><?php } ?>
     <?php if($keres['fajl'] == 'crud') { ?> <script src="templates/scripts/jscrud.js"></script> <?php } ?>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
 	<header>
