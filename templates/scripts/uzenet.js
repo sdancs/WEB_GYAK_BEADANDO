@@ -6,14 +6,12 @@ document.addEventListener("DOMContentLoaded", function() {
         urlap.addEventListener('submit', function(event) {
             let hibak = [];
             
-            let dnev = document.getElementById('nev').value.trim();
+            
             let demail = document.getElementById('email').value.trim();
             let dtargy = document.getElementById('targy').value.trim();
             let duzenet = document.getElementById('uzenet').value.trim();
 
-            if (dnev === '') {
-                hibak.push("A név megadása kötelező!");
-            }
+    
 
             if (demail === '') {
                 hibak.push("Az e-mail cím megadása kötelező!");
