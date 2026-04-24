@@ -27,9 +27,7 @@
         <form id="contact-form-data" method="POST">
             <div id="js-hibak" style="color: red; font-weight: bold; margin-bottom: 15px;"></div>
             
-            <label for="nev">Az Ön neve:</label><br>
-            <input type="text" id="nev" name="nev" placeholder="Kovács János" style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box;"><br>
-
+        
             <label for="email">E-mail címe:</label><br>
             <input type="text" id="email" name="email" placeholder="pelda@email.hu" style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box;"><br>
 
